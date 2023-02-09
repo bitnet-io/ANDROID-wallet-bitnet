@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string name="help_wallet">
+
+		&lt;p&gt;
+			Den övre halvan av skärmen visar ditt saldo i Radiocoin och en vald valuta.
+			Klicka för att gå till listan över valutor, och klicka på en valuta för att sätta den som standard.
+		&lt;/p&gt;
+		&lt;p&gt;
+			QR-koden till höger innehåller din radiocoin-adress och kan användas för att en annan part ska skanna den.
+			Klicka på QR-koden för att få en större version av den.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Botten av skärmen täcks av din transaktionslista, vilken är tom från början.
+			Väntande transaktioner är utgråade tills de är bekräftade.
+			Klicka på en post för att lägga till avsändaren eller mottagaren i adressboken.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Du kan skicka en myntbegäran genom att klicka på knapparna i åtgärdsfältet.
+			Fler alternativ finns under alternativmenyn.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_request_coins">
+
+		&lt;p&gt;
+			Med denna dialog kan du ta emot radiocoin från någon annan (som redan har Radiocoin Wallet installerad på sin telefon).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Först anger du hur många radiocoin du vill att de skickar.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Sedan kan den andra personen scanna QR-koden.
+			Eller så använder du \"Dela\" knappen i aktivitetslistan för att skicka din uppmaning att skicka radiocoin.
+			Den andra personen behöver sedan bara klicka på den Radiocoin-URL du skickat.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Sedan kommer den andra personen att få se en dialogruta där alla fält redan är ifyllda.
+			Om han eller hon sedan accapterar transaktionen så skickas radiocoin till dig.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_send_coins">
+
+		&lt;p&gt;
+			Du har påbörjat skickandet av radiocoin.
+			Du kom hit från huvudskärmen eller genom att klicka på en Radiocoin-URL i din webbläsare.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Ange först vilken Radiocoin adress du vill skicka till.
+			Adressen kan automatiskt fyllas i om den börjar med någon av adresserna i din adressbok.
+			Du kan också scanna en QR-kod innehållande en Radiocoin-adress, genom att trycka på QR knappen i aktivitetslistan.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Sedan kan du se hur många radiocoin du för tillfället kan skicka.
+			Om det antalet skiljer sig från det som visas på huvudskärmen, så beror det på hittills obekräftade överföringar som du ännu inte får använda.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Slutligen anger du hur många radiocoin du skicka.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Du kan skapa en transaktion även om du inte är online.
+			Den kommer att skickas nästa gång Radiocoin Wallet startas.
+			Om du vill att en transaktion ska hanteras så fort som möjligt, se till att ha bra uppkoppling till internet (exempelvis ett WLAN).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Notera:
+			Transaktioner kan inte stoppas!
+			Kontrollera alltid adressen du skickar till.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_safety">
+
+		&lt;p&gt;
+			&lt;b&gt;Några ord om säkerhet och radiocoin:&lt;/n&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Dina radiocoin i Radiocoin Wallet sparas på din Android telefon.
+			&lt;b&gt;Om du tappar bort din telefon, så tappar du bort dina radiocoin.&lt;/b&gt;
+			Precis som pengar i din vanliga plånbok.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Innan du avinstallerar Radiocoin Wallet&lt;/b&gt; (eller tar bort appens data/rensar din telefon), &lt;b&gt;skicka dina radiocoin till en annan wallet&lt;/b&gt;.
+			Alla kvarvarande radiocoin kommer att försvinna.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Transaktioner kan inte stoppas&lt;/b&gt;.
+			Efter att du skickat radiocoin finns det inget sätt att få dem tillbaka, annat än om du vet vem mottagaren är, och han/hon skickar dem tillbaka.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Se till att skydda din telefon!&lt;/b&gt;
+			Installera endast appar du helt litar på.
+			En elak app kan försöka stjäla din wallet.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Utsätt dig inte för onödig risk!
+			&lt;b&gt;Använd bara Radiocoin Wallet med mindre belopp&lt;/b&gt; för daglig användning.
+		&lt;/p&gt;
+	
+	</string>
+</resources>

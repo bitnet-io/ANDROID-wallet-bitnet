@@ -1,0 +1,7 @@
+Executable : /root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/armeabi-v7a
+scrypt
+jvmArgs : 
+

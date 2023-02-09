@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string name="help_wallet">
+
+
+
+		&lt;p&gt;
+			Bovenin wordt uw huidige saldo in Radiocoin en nationale valuta weergegeven.
+			Raak aan om naar de lijst van nationale valuta\'s te gaan en raak één van deze valuta\'s aan om deze als standaard te selecteren.
+		&lt;/p&gt;
+
+		&lt;p&gt;
+			De QR code aan de rechterkant bevat een Radiocoinadres en kan door anderen gebruikt worden om te scannen.
+			Raak de QR-code aan om deze groter weer te geven.
+		&lt;/p&gt;
+
+		&lt;p&gt;
+			Het onderste gedeelte van het scherm bevat uw transactie lijst welke in het begin leeg is.
+			Lopende transacties worden in grijstint getoond totdat ze bevestigd zijn.
+			Raak een regel aan om het adres van zenders en ontvangers aan uw adresboek toe te voegen.
+		&lt;/p&gt;
+
+		&lt;p&gt;
+			U kunt Radiocoin verzenden of verzoeken door op de knoppen van de actiebalk te drukken.
+			Meer opties zijn aanwezig in het optiesmenu.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_request_coins">
+
+		&lt;p&gt;
+			Deze dialoog kunt u gebruiken om Radiocoins te verzoeken van iemand (die ook Radiocoin Wallet of een andere Radiocoin-client geïnstalleerd heeft).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Eerst vul je een hoeveelheid Radiocoin in die je wilt ontvangen.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Daarna kan de andere persoon de QR-code scannen.
+			Of u kunt uw verzoek met de \'delen\'-knop versturen.
+			Als beide apparaten NFC aan hebben staan, kun je ze ook tegen elkaar aanhouden.
+		&lt;/p&gt;
+		&lt;p&gt;
+			De andere persoon zal nu de dialoog te zien krijgen voor het verzenden van Radiocoins waarin alle velden ingevuld zijn.
+			Als er akkoord gegaan wordt met de transactie hoeft deze alleen nog verzonden te worden.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_send_coins">
+
+		&lt;p&gt;
+			U heeft het dialoog gestart om Radiocoins te verzenden.
+			U bent hier terecht gekomen via het hoofd scherm of door het klikken op een Radiocoin-URL in uw browser.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Als eerste geeft u het Radiocoin adres in waar naar u wilt betalen.
+			Het adres zal automatisch aangevuld worden als deze bekend is in het adresboek.
+			U kan ook QR-codes scannen met een Radiocoin adres of verzoek door op de cameraknop te klikken.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Vervolgens kunt u zien hoe veel Radiocoins op dit moment beschikbaar zijn voor besteding.
+			Het eventuele verschil met het saldo van het hoofdscherm is nog onbevestigd en kan dus nog niet worden uitgegeven.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Als laatste kunt u het te betalen bedrag invullen.
+		&lt;/p&gt;
+		&lt;p&gt;
+			U kunt ook transacties ingeven terwijl u offline bent.
+			Deze transacties zullen verzonden worden zodra Radiocoin Wallet de volgende keer gestart wordt en online is.
+			Als u wenst dat uw transacties zo snel mogelijk verwerkt worden is het verstandig om verbonden te zijn met een zo goed mogelijke internet verbinding (d.w.z. op een WLAN).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Opmerking:
+			Transacties kunnen niet ongedaan gemaakt worden!
+			Controleer altijd het ontvangstadres.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_safety">
+
+		&lt;p&gt;
+			&lt;b&gt;Enkele woorden over de veiligheid van uw Radiocoins:&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Radiocoins in Radiocoin Wallet zijn opgeslagen op het apparaat.
+			&lt;b&gt;Als u uw apparaat verliest zullen deze Radiocoins ook verloren zijn.&lt;/b&gt;
+			Vergelijkbaar met het verlies van uw portemonnee.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Voor het verwijderen van Radiocoin Wallet&lt;/b&gt; (of verschonen van appdata of wipe van het apparaat), &lt;b&gt;dient u de Radiocoins over te zetten naar een andere wallet.&lt;/b&gt;.
+			Overblijvende Radiocoins zullen verloren gaan.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Transacties met Radiocoin kunnen niet ongedaan gemaakt worden&lt;/b&gt;.
+			Als u Radiocoins naar een onbekend adres stuurt zijn ze onmogelijk terug te krijgen tenzij u de eigenaar kent en deze bereid is de Radiocoins terug te sturen.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Houd uw Android apparaat veilig!&lt;/b&gt;
+			Installeer alleen apps die u volledig vertrouwt.
+			Kwaadaardige apps zouden kunnen proberen om uw wallet te stelen.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Houd het risico laag!
+			&lt;b&gt;Gebruik Radiocoin Wallet alleen voor kleine bedragen&lt;/b&gt; voor dagelijks gebruik.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_technical_notes">
+
+        &lt;p&gt;
+            &lt;b&gt;Technische opmerkingen:&lt;/b&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            Radiocoin Wallet volgt als een SPV/light-portemonnee de keten van de meeste \"proof-of-work\" (soms ook genaamd de \"langste keten\", de \"winnende keten\" of de \"Radiocoin-blokketen\").
+            Je kan alleen inkomende betalingen ontvangen als je de mogelijkheid hebt om op die keten te kunnen betalen.
+            Er kunnen geen garanties gegeven worden over Radiocoins op minderheidsketens met minder \"proof-of-work\".
+        &lt;/p&gt;
+        &lt;p&gt;
+            Minderheidsketens zijn in het verleden altijd snel irrelevant geworden.
+            Als je de wens hebt om toch een minderheidsketen te volgen, wordt je geadviseerd om de \"trusted peer\" feature te gebruiken om exclusief te verbinden met een implementatie van radiocoind die forceert om die gewenste keten te volgen.
+            Als het netwerk tussen je portemonnee en je \"trusted peer\" niet te vertrouwen is, gebruik een VPN voor de authenticatie van die verbinding.
+        &lt;/p&gt;
+    
+    </string>
+</resources>

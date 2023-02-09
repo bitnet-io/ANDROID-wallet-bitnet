@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string name="help_wallet">
+
+		&lt;p&gt;
+			La parte in alto a sinistra dello schermo mostra il tuo saldo in Radiocoins e nella valuta nazionale selezionata.
+			Toccare per visualizzare la lista delle valute nazionali, e toccare una valuta per sceglierla come predefinita.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Il codice QR sulla destra contiene il vostro indirizzo radiocoin e può essere utilizzato per la scansione da parte di un altro soggetto.
+			Toccare il codice QR per ingrandirlo.
+		&lt;/p&gt;
+		&lt;p&gt;
+			La parte inferiore dello schermo è occupata dalla lista delle transazioni, inizialmente è vuota.
+			Le operazioni in sospeso sono visualizzate in grigio finché non vengono confermate.
+			Toccare un elemento della lista per aggiungere l\'indirizzo del mittente o del destinatario nella rubrica degli indirizzi.
+		&lt;/p&gt;
+		&lt;p&gt;
+			È possibile inviare o ricevere Radiocoins toccando i pulsanti nella barra delle azioni.
+			Ulteriori opzioni sono disponibili nel menu delle opzioni.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_request_coins">
+
+		&lt;p&gt;
+			Utilizzando questa finestra puoi richiedere dei Radiocoin ad un\'altra persona
+			(che dovrebbe aver già installato Radiocoin Wallet).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Come prima cosa puoi inserire il numero di Radiocoin da richiedere.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Poi puoi generare dei codici QR da far acquisire all\'altra persona.
+			Oppure puoi inviare la richiesta con il tasto \"condividi\" nella barra azioni.
+			La persona che riceve la richiesta dovrà cliccare l\'URL Radiocoin.
+		&lt;/p&gt;
+		&lt;p&gt;
+			In ogni modo alla persona ricevente verrà presentata un modulo precompilato per inviare i Radiocoin.
+			Per confermare l\'invio dovrà solo accettare la transazione.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_send_coins">
+
+		&lt;p&gt;
+			Hai iniziato il processo per inviare Radiocoins.
+			Sei giunto qui a partire dalla schermata principale o cliccando su di un URL Radiocoin dal tuo browser.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Come prima cosa è necessario inserire l\'indirizzo Radiocoin a cui inviare.
+			L\'indirizzo si autocompleterà in base al contenuto della tua rubrica.
+			Puoi anche acquisire un codice QR che contiene indirizzi Radiocoin o richieste Radiocoin premendo il tasto QR sulla barra azioni.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Ti è poi possibile visualizzare quanti Radiocoin puoi spendere.
+			Eventuali differenze con il saldo visualizzato sulla schermata principale fanno parte di transazioni
+			non ancora confermate il cui importo non può quindi essere ancora utilizzato.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Puoi infine inserire il numero di Radiocoin da inviare.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Puoi inserire una transazione anche senza collegamento ad Internet, verrà inviata alla prossima esecuzione di Radiocoin Wallet.
+			Se vuoi che la transazione venga processata il prima possibile assicurati di avere un buon collegamento ad Internet.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Nota:
+			I pagamenti non possono essere annullate!
+			Controlla sempre la correttezza degli indirizzi di destinazione.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_safety">
+
+		&lt;p&gt;
+			&lt;b&gt;Alcune informazioni riguardo la sicurezza relativa ai vostri Radiocoins:&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			I Radiocoins di Radiocoin Wallet vengono memorizzati sul dispositivo.
+			&lt;b&gt;Se perdi il dispositivo, perdi i tuoi Radiocoin.&lt;/b&gt;
+			Esattamente come denaro nel tuo vero portafoglio.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Prima di disinstallare Radiocoin Wallet&lt;/b&gt; (o cancellare i dati dell\'applicazione o del dispositivo), &lt;b&gt;trasferisci i tuoi Radiocoins ad un altro portafoglio&lt;/b&gt;.
+			Eventuali Radiocoin non trasferiti saranno persi per sempre.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;I pagamenti non possono essere annullati&lt;/b&gt;.
+			Se invi i tuoi Radiocoin ad indirizzi errati non c\'è modo di riaverli indietro
+			a meno che tu non conosca il ricevente e che sia disponibile a restituirli.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Proteggi il tuo dispositivo Android!&lt;/b&gt;
+			Installa solo applicazioni di cui ti fidi completamente.
+			Applicazioni malevole potrebbero provare a rubare il tuo portafoglio.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Tieni basso il rischio!
+			&lt;b&gt;Usa Radiocoin Wallet solo con piccoli importi&lt;/b&gt; sufficienti per l\'uso quotidiano.
+		&lt;/p&gt;
+	
+	</string>
+</resources>

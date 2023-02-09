@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string name="help_wallet">
+
+		&lt;p&gt;
+			Ekranın sol üst köşesinde, dengenizi Radiocoins ve bir seçilen ulusal para birimi cinsinden görüntüler.
+			Ulusal para birimleri listesine gitmek için hafifçe vurun ve varsayılan olarak seçmek için para birimlerinden birine hafifçe dokunun.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Sağ üstteki QR kodu, geçerli bit arkadaşınızın adresini içerir ve bir ödeme yapan kişi tarafından tarama yapmak için kullanılabilir.
+			Daha büyük bir sürümünü elde etmek için QR koduna dokunun.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Ekranın alt kısmı işlemler listenizde yer almaktadır.
+			Başında boş olan ve ödemeleri alırken ve gönderirken dolduracak.
+			Alınan ödemeler yeşil olarak işaretlenecek ve ödemeler kırmızı renkte gösterilecek.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Eylem çubuğundaki düğmelere dokunarak madeni paralar gönderebilir veya isteyebilirsiniz.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_request_coins">
+
+		&lt;p&gt;
+			Bu diyaloğu kullanarak başka bir kişiden Radiocoin talep edebilirsiniz (bu kişinin Radiocoin Wallet uygulamasını cihazında kurmuş olması gerekir).
+		&lt;/p&gt;
+		&lt;p&gt;
+			İlk olarak talep edilen Radiocoin miktarını girebilirsiniz.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Ardından ya diğer kişi tarafından taranacak bir QR code oluşturmanız,
+			ya da uzaktaki bir kişiye etkinlik çubuğunda paylaş düğmesiyle talebinizi göndermeniz gerekir.
+			Bu kişinin Radiocoin bağlantısını tıklaması gerekecektir.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Her durumda diğer kişiye Radiocoin göndermesi için tüm seçenekleri doldurulmuş bir diyalog gösterilecektir.
+			Kabul ederse tüm yapması gereken muameleyi yollamaktır.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_send_coins">
+
+		&lt;p&gt;
+			Radiocoin gönderme prosedürünü başlattınız.
+			Buraya ya ana ekrandan ya da mobil ağ tarayıcınızda bir Radiocoin bağlantısına tıklayarak geldiniz.
+		&lt;/p&gt;
+		&lt;p&gt;
+			İlk olarak ödeme yapacağınız Radiocoin adresini girmelisiniz.
+			Adres defterinizde bilinen adreslere dayanılarak adres otomatik olarak tamamlanacaktır.
+			Ayrıca etkinlik çubuğunda QR düğmesine dokunarak Radiocoin adresi ya da talebi içeren QR kodlarını tarayabilirsiniz.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Bunun ardından o anda ne kadar Radiocoin harcayabileceğinizi görüntüleyebilirsiniz.
+			Varsa ana ekrandaki bakiye ile farklılıklar henüz teyit edilmemiştir ve dolayısıyla henüz harcanamaz.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Son olarak ödenecek miktarı ve sunduğunuz ücreti girmeniz gerekir.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Çevrimdışı olduğunuz sırada bir muamele girebilirsiniz.
+			Radiocoin Wallet uygulamasının sonraki açılışında gönderilir.
+			Bir muamelenin mümkün olduğu kadar çabuk işlenmesini istiyorsanız bağlantınızın iyi olduğundan (mesela WLAN ile).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Not:
+			Muameleler geri alınamaz!
+			Alıcı adresini daima kontrol ediniz.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_safety">
+
+		&lt;p&gt;
+			&lt;b&gt;Radiocoinlerinizin güvenliği hakkında önemli noktalar:&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Radiocoin cüzdanınızdaki Radiocoinler cihazınızda saklanır.
+			&lt;b&gt;Cihazınızı kaybederseniz Radiocoinlerinizi de kaybedersiniz.&lt;/b&gt;
+			Tıpkı fiziki cüzdanınızdaki para gibi.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Radiocoin Wallet&lt;/b&gt; uygulamasını kaldırmadan önce (ya da uygulama verilerini/cihazınızı sıfırlamadan önce) &lt;b&gt;tüm Radiocoinlerinizi başka bir cüzdana aktarınız&lt;/b&gt;.
+			Kalan tüm Radiocoinler kaybolacaktır.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Muameleler geri alınamaz&lt;/b&gt;.
+			Radiocoinlerinizi yanlış bir adrese yollarsanız, bunları geri almak için alıcıyı tanımanız ve onun geri yollamayı kabul etmeniz dışında hiçbir yol yoktur.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Android cihazınızı güvenli kullanın!&lt;/b&gt;
+			Sadece tamamen güvendiğiniz uygulamaları indiriniz.
+			Kötücül uygulamalar cüzdanınızı çalmaya çalışabilir.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Riski sınırlayın!
+			&lt;b&gt;Radiocoin Wallet uygulamasını sadece küçük tutarlar için kullanınız&lt;/b&gt;.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_technical_notes">
+
+        &lt;p&gt;
+            &lt;b&gt;Teknik notlar:&lt;/b&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            Bir SPV/hafif cüzdan olarak Radiocoin Wallet As en çok ispatlanmış zinciri takip eder (ki buna bazen \"en uzun zincir\", \"kazanan zincir\" veya \"Radiocoin blok zinciri\" de denir).
+            Sadece gelen ödemeleri alacak ve o zincirde ödeme yapabileceksiniz.
+            Azınlık zincirlerindeki yani daha az ispatlanmış zincirlerdeki Radiocoinler için hiçbir garanti verilemez.
+        &lt;/p&gt;
+        &lt;p&gt;
+            Geçmişte azınlık anahtarları daima çok hızlı bir şekilde anlamsız bir hale gelmişlerdir.
+            Eğer her şeye rağmen bir azınlık zincirini takip etmek istiyorsanız, sadece istediğiniz zinciri zorlayacak bir radiocoind uygulamasına bağlanmak için \"güvenli eş\" işlevini kullanmanız tavsiye edilir.
+            Şayet cüzdanınız ve güvenli eş arasındaki şebeke güvenilir değilse, bu bağlantıyı doğrulamak için bir VPN (sanal özel ağ) kullanın.
+        &lt;/p&gt;
+    
+    </string>
+</resources>

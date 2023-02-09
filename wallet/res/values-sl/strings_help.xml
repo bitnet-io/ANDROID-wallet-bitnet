@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string name="help_wallet">
+
+		&lt;p&gt;
+			V zgornjem levem kotu zaslona je zapisan vaš radiocoin naslov. Oseba, ki vam pošilja novce, mora poznati na naslov.
+			Z dotikom ga lahko spremenite.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Desno od naslova je QR-koda, ki vsebuje ta naslov. Plačnik jo lahko prečita s kamero.
+			Z dotikom jo lahko povečate.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Na sredi zaslona vidite svoje stanje.
+			Stanje je spodaj prikazano tudi v izbrani lokalni valuti (npr. EUR).
+			Dotaknite se stanja za prikaz možnih lokalnih valut. Katerokoli valuto lahko potem izberete za privzeto: dotaknite se je in potem pritisnite risalni žebljiček zgoraj desno.
+		&lt;/p&gt;
+		&lt;p&gt;
+			V spodnji polovici zaslona so prikazana vaša nakazila. Seznam nakazil je na začetku prazen.
+			Nova nakazila so prikazana v sivi, dokler niso potrjena.
+			Z dotikom nakazila lahko pošiljatelja oz. prejemnika dodate v imenik.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Novce lahko pošiljate ali prejemate z gumbi v akcijski vrstici na dnu.
+		&lt;/p&gt;
+		&lt;p&gt;
+			V aplikacijskem meniju imate na voljo še druge možnosti.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_request_coins">
+
+		&lt;p&gt;
+			S pomočjo tega pogovornega okna lahko drugi osebi, ki že ima nameščeno radiocoin denarnico, posredujete zahtevek za plačilo.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Najprej lahko vnesete znesek za plačilo.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Potem lahko plačniku pokažete prikazano QR-kodo, lahko pa mu zahtevek za plačilo pošljete z uporabo gumba za deljenje v vrstici z akcijami.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Ko bo plačnik prejel zahtevek za plačilo, mu bo prikazano pogovorno okno s plačilnimi podatki. Moral bo le še potrditi pošiljanje novcev.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_send_coins">
+
+		&lt;p&gt;
+			Začeli ste s postopkom pošiljanja novcev.
+			Sem ste prišli ali s klikom za pošiljanje na glavnem zaslonu, s prejetjem zahtevka za plačilo ali pa s klikom povezave za plačilo v brskalniku.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Vnesti je potrebno naslov za plačilo.
+			Naslov je že vnešen, če ste prejeli zahtevek za plačilo ali prečitali QR-kodo. Če še ni vnešen, lahko sedaj prečitate QR-kodo z naslovom ali zahtevkom za plačilo tako, da pritisnete ikono s fotoaparatom.
+			Lahko tudi začnete tipkati in naslov se bo samodejno dopolnil iz imenika, če ga uporabljate.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Preverite, koliko radiocoinov imate na voljo za potrošnjo.
+			Nepotrjenih prejetih novcev še ne morete potrošiti; počakati morate na potrditev iz omrežja.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Vnesite znesek za plačilo. Aplikacija vas bo opozorila, če ne boste imeli dovolj novcev za izbrani znesek.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Plačilo lahko vnesete tudi, če niste povezani v omrežje.
+			Plačilo bo poslano, ko naslednjič zaženete Radiocoin Wallet.
+			Če želite, da se plačilo izvede čim hitreje, poskrbite, da boste dobro povezani v omrežje (npr. prek lokalnega Wi-Fi omrežja).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Opozorilo: Vsako plačilo je dokončno in nepovratno! Pri vsakem plačilu preverite, da uporabljate pravi prejemni naslov.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_safety">
+
+		&lt;p&gt;
+			&lt;b&gt;Pomembna opozorila glede varnosti:&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Radiocoini so shranjeni na tej napravi.
+			&lt;b&gt;Če izgubite napravo, izgubite svoje radiocoine.&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Zato morate imeti &lt;b&gt;rezervno kopijo svoje denarnice&lt;/b&gt;!
+			V ta namen uporabiti varnostno kopiranje v tej aplikaciji in ne varnostnega kopiranja z uporabo kake druge aplikacije.
+			Varnostno kopijo varno hranite in ne pozabite njenega gesla.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Če nameravate aplikacijo odstraniti z naprave (ali počistiti podatke z naprave), &lt;b&gt;prej prenesite svoje novce v denarnico na drugi napravi&lt;/b&gt;.
+			Novci, ki ostanejo tu, bodo ob odstranitvi aplikacije izgubljeni.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Vsa plačila so dokončna&lt;/b&gt;.
+			Če pošljete svoje novce neznano kam, jih ni mogoče dobiti nazaj.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Varno rokujte s svojo napravo!&lt;/b&gt;
+			Ne uporabljate root-dostopa do naprave. Nameščajte samo aplikacije, ki jim zaupate. Zlonamerne aplikacije lahko poskusijo in uspejo ukrasti vaše novce.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Znižajte tveganje tako, da &lt;b&gt;v tej denarnici držite le nizke vsote&lt;/b&gt; za vsakodnevno uporabo.
+		&lt;/p&gt;
+	
+	</string>
+</resources>

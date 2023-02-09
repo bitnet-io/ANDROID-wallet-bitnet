@@ -1,0 +1,53 @@
+{
+  "stringTable": {
+    "0": "/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/x86_64",
+    "1": "--target=x86_64-none-linux-android23 --gcc-toolchain=/root/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dscrypt_EXPORTS -I/home/c4pt/opt/BITnet-android-wallet/wallet/cpp/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DHAVE_CONFIG_H -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/home/c4pt/opt/BITnet-android-wallet/wallet/cpp/CMakeLists.txt",
+    "/root/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/root/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "scrypt-Release-x86_64": {
+      "buildCommand": "/root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/x86_64\" scrypt",
+      "buildType": "release",
+      "toolchain": "873082659",
+      "abi": "x86_64",
+      "artifactName": "scrypt",
+      "files": [
+        {
+          "src": "/home/c4pt/opt/BITnet-android-wallet/wallet/cpp/scrypt_jni.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/c4pt/opt/BITnet-android-wallet/wallet/cpp/crypto_scrypt-nosse.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/c4pt/opt/BITnet-android-wallet/wallet/cpp/sha256.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/c4pt/opt/BITnet-android-wallet/wallet/build/intermediates/cmake/prodRelease/obj/x86_64/libscrypt.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "873082659": {
+      "cCompilerExecutable": "/root/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string name="help_wallet">
+
+		&lt;p&gt;
+			O canto superior esquerdo do ecrã mostra o seu saldo em Radiocoins e numa moeda nacional.
+			Toque para ver a lista de moedas nacionais, e toque numa delas para selecioná-la como moeda padrão.
+		&lt;/p&gt;
+		&lt;p&gt;
+			O código QR no canto superior direito contém o seu endereço de radiocoin atual e pode ser usado para ser lido por outro dispositivo.
+			Toque no código QR para ampliá-lo.
+		&lt;/p&gt;
+		&lt;p&gt;
+			A parte inferior do ecrã contém uma lista das suas transações.
+			Inicialmente ela está vazia e vai sendo preenchida conforme receber e efetuar pagamentos.
+			Os pagamentos recebidos são mostrados a e os realizados a vermelho.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Pode enviar ou solicitar radiocoins tocando nos botões na barra de ação.
+			Estão disponíveis mais opções no menu de opções.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_request_coins">
+
+		&lt;p&gt;
+			Usando esta janela, pode pedir radiocoins a outra pessoa (que também já tenha instalado uma carteira Radiocoin).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Primeiro, pode inserir opcionalmente uma quantidade de Radiocoins a ser pedida.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Será gerado um código QR e este deve ser digitalizado pela outra pessoa.
+			Também pode enviar o seu pedido para uma pessoa remotamente, usando o botão partilhar na barra de ações.
+			A outra pessoa deve clicar no endereço URL da Radiocoin.
+		&lt;/p&gt;
+		&lt;p&gt;
+			O pedido irá mostrar a outra pessoa uma janela para o envio de radiocoins com todos os campos pré-preenchidos.
+			Se ela concordar com o valor, tudo o que ela precisa fazer é enviar o pagamento.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_send_coins">
+
+		&lt;p&gt;
+			Iniciou o processo de envio de radiocoins.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Primeiro introduza o endereço Radiocoin para o qual quer fazer o pagamento.
+			O endereço será completado automaticamente através de entradas conhecidas no seu livro de endereços.
+			Ao usar o botão QR na barra de ações, pode digitalizar códigos QR que contenham pedidos de pagamento.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Em seguida, pode ver quantos Radiocoins tem disponíveis para serem gastos no momento.
+			Se houver uma diferença entre o valor disponível para ser gasto e o saldo no ecrã principal, é porque ainda existem transações não confirmadas.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Por último, introduza a quantia a pagar.
+		&lt;/p&gt;
+		&lt;p&gt;
+			É possível inserir um pagamento mesmo estando desligado da Internet.
+			Ele será enviado na próxima reinicialização da Radiocoin Wallet.
+			Se quer que um pagamento seja processado o mais rápido possível, certifique-se que está a usar uma boa ligação (por exemplo uma rede Wi-Fi).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Nota:
+			Todos os pagamentos são irreversíveis.
+			Verifique sempre com cuidado o endereço de destino.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_safety">Radiocoins
+
+		&lt;p&gt;
+			&lt;b&gt;Notas importantes sobre segurança:&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			As chaves para os seus Radiocoins são armazenadas no seu dispositivo.
+			&lt;b&gt;Se perder este dispositivo, perderá também as suas chaves e, consequentemente, também perderá todos os seus Radiocoins.&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Isso significa que tem que fazer uma &lt;b&gt;cópia de segurança da sua carteira&lt;/b&gt;!
+			Utilize o próprio recurso de cópia de segurança da aplicação, em vez de utilizar aplicações de terceiros para fazer cópias de segurança.
+			Mantenha a sua cópia de segurança segura e não se esqueça da palavra-passe.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Antes de desinstalar&lt;/b&gt; (ou limpar os dados da aplicação/formatar o seu dispositivo) &lt;b&gt;transfira os seus Radiocoins para uma outra carteira&lt;/b&gt;.
+			Os Radiocoins remanescentes serão perdidos.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Os pagamentos são irreversíveis&lt;/b&gt;.
+			Se enviar os seus Radiocoins para um endereço desconhecido, não há quase nenhuma forma de obtê-los novamente.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Mantenha o seu dispositivo móvel seguro!&lt;/b&gt;
+			Não faça rooting no seu dispositivo.
+			Não instale aplicações de fontes que não confia.
+			As aplicações maliciosas podem tentar roubar a sua carteira.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Não se arrisque.
+			&lt;b&gt;Não carregue na sua carteira Radiocoin valores maiores do que carregaria numa carteira de bolso comum&lt;/b&gt;.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_technical_notes">
+
+        &lt;p&gt;
+            &lt;b&gt;Notas técnicas:&lt;/b&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            Como uma carteira simples/SPV, Radiocoin Wallet segue a cadeia da maioria de \'prova-de-trabalho\' (algumas vezes denominada \"a cadeia mais longa\", a \"cadeia vencedora\" ou \"cadeia de bloco Radiocoin\").
+            Só irá receber \'pagamentos a receber\' e poder pagar nessa cadeia.
+            Não podem ser dadas garantias sobre as Radiocoins nas cadeias minoritárias, ou seja, cadeias com \'prova-de-trabalho\'.
+        &lt;/p&gt;
+        &lt;p&gt;
+            Anteriormente, as cadeias minoritárias tornaram-se sempre irrelevantes muito rapidamente.
+            Se desejar seguir uma cadeia minoritária de qualquer modo, é aconselhável utilizar a funcionalidade \"par de confiança\" para ligar exclusivamente à implementação \"radiocoind\" que força a sua cadeia desejada.
+            Se a rede entre a sua carteira e o par de confiança não for de confiança, utilize a VPN para autenticar essa ligação.
+        &lt;/p&gt;
+    
+    </string>
+</resources>

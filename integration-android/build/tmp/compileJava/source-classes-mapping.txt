@@ -1,0 +1,2 @@
+de/schildbach/wallet/integration/android/BitcoinIntegration.java
+ org.apache.cordova.radiocoin.wallet.integration.android.BitcoinIntegration

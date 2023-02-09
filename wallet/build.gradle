@@ -1,0 +1,244 @@
+import groovy.io.FileType
+import groovy.xml.XmlUtil
+
+plugins {
+    id 'com.android.application'
+    id 'androidsvgdrawable'
+}
+
+configurations {
+    all*.exclude group: 'com.google.android', module: 'android'
+    all*.exclude group: 'androidx.viewpager', module: 'viewpager'
+}
+
+dependencies {
+    implementation project(':integration-android')
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.core:core:1.3.2'
+    implementation 'androidx.fragment:fragment:1.2.5'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-service:2.2.0'
+    implementation 'androidx.sqlite:sqlite:2.1.0'
+    implementation "androidx.room:room-runtime:2.2.5"
+    annotationProcessor "androidx.room:room-compiler:2.2.5"
+  //  api 'com.dogecoin:libdohj-core:0.15-SNAPSHOT'
+
+    implementation 'com.github.c4pt000:libdohj:d623e68'
+
+    implementation 'com.github.c4pt000:bitcoinj:6d24fb7'
+
+
+// see github.com/c4pt000/libdohj/core/build.gradle for bitcoinj implementation
+ //   implementation 'com.github.c4pt000:bitcoinj:ddca109'
+ 
+    implementation 'com.lambdaworks:scrypt:1.4.0'
+    implementation 'com.google.protobuf:protobuf-java:3.7.1'
+    implementation 'com.google.guava:guava:29.0-android'
+    implementation 'com.google.zxing:core:3.3.3'
+    //noinspection GradleDependency
+    implementation 'com.squareup.okhttp3:okhttp:3.14.9'
+    //noinspection GradleDependency
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.14.9'
+    implementation 'com.squareup.moshi:moshi:1.9.3'
+    implementation 'org.slf4j:slf4j-api:1.7.30'
+    implementation 'com.github.tony19:logback-android:2.0.0'
+    testImplementation 'junit:junit:4.13'
+}
+
+ext {
+    archivesBaseName = 'bitnet-wallet'
+}
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId 'org.apache.cordova.radiocoin'
+        dexOptions {
+            preDexLibraries false
+        }
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 600
+        versionName '6.0.0'
+        vectorDrawables.useSupportLibrary = true
+
+        ndk {
+            abiFilters 'armeabi-v7a', 'x86', 'arm64-v8a', 'x86_64'
+        }
+
+        externalNativeBuild {
+            cmake {
+                cFlags '-DHAVE_CONFIG_H'
+            }
+        }
+    }
+
+    buildTypes {
+        all {
+            minifyEnabled true
+            shrinkResources false
+            proguardFile 'proguard.cfg'
+        }
+        debug {
+            debuggable true
+        }
+    }
+
+    flavorDimensions 'flavor'
+    productFlavors {
+        dev {
+            dimension 'flavor'
+            applicationIdSuffix '.wallet.test'
+        }
+        prod {
+            dimension 'flavor'
+            applicationIdSuffix '.wallet'
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+        prod {
+            res.srcDirs = ['res-prod']
+            assets.srcDirs = ['assets-prod']
+        }
+        test {
+            java.srcDirs = ['test']
+            resources.srcDirs = ['test']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+        disable 'MissingTranslation'
+    }
+
+    packagingOptions {
+        exclude 'lib/x86_64/darwin/libscrypt.dylib'
+        exclude 'lib/x86_64/freebsd/libscrypt.so'
+        exclude 'lib/x86_64/linux/libscrypt.so'
+        exclude 'org.dogecoin.production.checkpoints.txt'
+        exclude 'org.litecoin.production.checkpoints.txt'
+        exclude 'org.dogecoin.test.checkpoints.txt'
+        exclude 'META-INF/*.version'
+        exclude 'META-INF/proguard/**'
+        exclude 'META-INF/services/**'
+        exclude '**/*.proto'
+        exclude 'org/bouncycastle/x509/*.properties'
+        exclude 'okhttp3/internal/publicsuffix/*'
+        exclude 'org/bitcoinj/crypto/mnemonic/wordlist/english.txt'
+        exclude 'org/bitcoinj/crypto/cacerts'
+        exclude 'org.bitcoin.production.checkpoints.txt'
+        exclude 'org.bitcoin.test.checkpoints.txt'
+    }
+
+    externalNativeBuild {
+        cmake {
+            path file('cpp\\CMakeLists.txt')
+        }
+    }
+}
+
+/*
+task svgToPngMipmap(type: fr.avianey.androidsvgdrawable.gradle.SvgDrawableTask) {
+    from = files('graphics/mipmap')
+    to = file('res')
+    targetedDensities = ['xxhdpi', 'xxxhdpi']
+    outputFormat = 'PNG'
+    outputType = 'mipmap'
+}
+
+task svgToPngMipmapProd(type: fr.avianey.androidsvgdrawable.gradle.SvgDrawableTask) {
+    from = files('graphics-prod/mipmap')
+    to = file('res-prod')
+    targetedDensities = ['xxhdpi', 'xxxhdpi']
+    outputFormat = 'PNG'
+    outputType = 'mipmap'
+}
+ */
+
+android.applicationVariants.all{ variant ->
+    variant.mergeResources.doFirst{
+        LangUpdater.main(new File("${rootDir}/wallet/res/"))
+    }
+    variant.mergeResources.doLast{
+        new File("${rootDir}/wallet/res/").eachFileRecurse (FileType.DIRECTORIES) { file ->
+            if (file.name.startsWith("values")) {
+                "git restore -s@ -SW -- wallet/res/${file.name}/strings*.xml".execute([], rootDir).waitFor()
+            }
+        }
+    }
+}
+
+class LangUpdater {
+    static def main(File dir) {
+        def list = []
+        dir.eachFileRecurse (FileType.FILES) { file ->
+            list << file
+        }
+        doReplace(list)
+    }
+
+    static def doReplace(ArrayList<File> f) {
+        def toDo = []
+        f.each {
+            if (it.getName().matches("strings.*\\.xml")) {
+                toDo << it
+            }
+        }
+
+        toDo.each {
+            def xml = replaceStrings(it)
+            def writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(it.getAbsolutePath()), "UTF-8"))
+            XmlUtil.serialize(xml, writer)
+            writer.flush()
+            writer.close()
+        }
+    }
+
+    static def replaceStrings(File f) {
+        def resources = new XmlSlurper().parse(f)
+        resources.string.each {
+            it.replaceBody(tryAllReplacements(it.text()))
+        }
+        return resources
+    }
+
+    static def tryAllReplacements(String s) {
+        String res = s
+        // Do some specifics first
+        res = res.replaceAll("bitcoinj", "libdohj")
+        res = res.replaceAll("bitboy", "radiocoin.com")
+
+        // Esperanto specifics
+        res = res.replaceAll("Bitmon", "Bitnetmon")
+        res = res.replaceAll("bitmon", "Bitnetmon")
+
+        // Japanese specifics
+        res = res.replaceAll("ビット", "ドージ")
+
+        // Chinese specifics
+        res = res.replaceAll("比特", "狗狗")
+
+        // And the rest
+        res = res.replaceAll("RADC", "BIT")
+        res = res.replaceAll("radiocoin", "bitnet")
+        res = res.replaceAll("Bitnet", "Bitnet")
+
+        return res
+    }
+}

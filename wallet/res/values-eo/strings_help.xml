@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string name="help_wallet">
+
+		&lt;p&gt;
+			La supra maldekstra parto de la ekrano montras vian elektitan Radcmonadreson, ke aliaj homoj bezonas scii por sendi al vi Radcmonojn.
+			Frapetu por ŝanĝi la adreson.
+		&lt;/p&gt;
+		&lt;p&gt;
+			La QR kodo dekstre enhavas vian radcmonadreson kaj povas esti uzata por skanado de alia partio.
+			Frapetu sur la QR kodo por obteni pli grandan version.
+		&lt;/p&gt;
+		&lt;p&gt;
+			En la mezo de la ekrano, via saldo estas montrata.
+			La valoro de via monujo ankaŭ montras en elektita loka valuto.
+			Frapetu sur saldo por montri liston de tutaj lokaj valutoj, kaj frapetu sur unu de la valutoj por elekti ĝin kiel defaŭlto.
+		&lt;/p&gt;
+		&lt;p&gt;
+			La malsupro de la ekrano estas kovrita per via transakcia listo, kiu estas malplena je la komenco.
+			Atendantaj transakcioj grizas ĝis ili estas konfirmitaj.
+			Frapetu sur enskribigo por aldoni la sendintan aŭ ricevintan adreson al la adreslibro.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Vi povas sendi aŭ peti monojn per frapetadi la butonojn en la agejo.
+			Pli da opcioj estas disponeblaj en la opcioj menuo.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_request_coins">
+
+		&lt;p&gt;
+			Uzante ĉi tiun dialogon, vi povas peti monon de alia persono (kiu devus jam esti instalita RadcmonMonujo).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Unue, vi povas eniri kvanton de Radcmonj por peti.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Tiam, vi devas havi la generitan QR-kodon skanitan de la alia persono. 
+			Aŭ, vi povas sendi vian peton al fora persono kun la "kunhavigi" butonon en la agujo.
+			La alia persono devos klaki la Radcmonon URLon.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Ĉiaokaze, la alia persono estos prezentita dialogo por sendi monon kun ĉiuj kampoj jam plenigis.
+			Se ŝi akceptas, ĉiuj ŝi bezonas fari estas sendi la pagon.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_send_coins">
+
+		&lt;p&gt;
+			Vi komencis la procezon de sendado de mono.
+			Vi venis ĉi tien tra la ĉefa ekrano aŭ klakante sur Radcmona URL en via poŝtelefonretumilo.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Unue, vi enigi la Radcmonadreson por pagi al.
+			La adreso aŭtomate kompletigos el konataj enigoj en via adreslibro.
+			Vi povas ankaŭ skani QR-kodojn kun Radcmonadresoj aŭ Radcmonaj petoj per klaki la QR-butonon en la agujo.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Tuj poste, vi povas vidi kiom da Radcmonoj vi povas elspezi nune.
+			Ajna diferenco al la saldo de la ĉefa ekrano estas ankoraŭ nekonfirmitaj kaj povas tial ankoraŭ ne elspezi.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Lasta, vi enigas la sumon por pagi.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Vi povas enigi pagon senkonekte.
+			Ĝi senditos ĉe rekomenco de RadcmonMonujo.
+			Se vi volas pagon faritan, kiel rapide, kiel eblece, estu certe, ke vi estas bon konekita (ezkemple, WLAN).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Noto:
+			Pagoj estas neinversigeblaj!
+			Ĉiam kontrolu la ricevantadreson.
+		&lt;/p&gt;
+	
+	</string>
+<string name="help_safety">
+
+		&lt;p&gt;
+			&lt;b&gt;Gravaj sekurecaj notoj:&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Radcmonoj estas stokitaj sur l\'aparato.
+			&lt;b&gt;Se vi perdas ĝin, vi perdos viajn Radcmonojn.&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Tio signifas ke vi bezonas &lt;b&gt;savkopii vian monujon&lt;/b&gt;!
+			Uzu la en-aplikaĵo savkopiilo, anstataŭ alia savkopiilo.
+			Konservu vian savkopion sekuran kaj memoru la pasvorton.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Antaŭ malinstalado&lt;/b&gt; (aŭ purigado de aplikaĵaj datumoj/purigi vian aparaton), &lt;b&gt;transdonu viajn Radcmonojn al alia monujo&lt;/b&gt;.
+			La restoj da Radcmonoj perdiĝos.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Pagoj estas neinversigeblaj&lt;/b&gt;.
+			Se vi sendas viajn Radcmonojn en l\'abismon, estas preskaŭ ne ebli rehavi ilin.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Konservu vian moveblan aparaton sekuran!&lt;/b&gt;
+			Ne radiku vian aparaton.
+			Nur instali aplikaĵojn, ke vi plene fidas.
+			Malicaj aplikaĵoj povus esti provante ŝteli vian monujon.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Tenu la riskon malalte!
+			&lt;b&gt;Nur uzi kun malgrandaj kvantoj&lt;/b&gt; por ĉiutaga uzo.
+		&lt;/p&gt;
+	
+	</string>
+</resources>

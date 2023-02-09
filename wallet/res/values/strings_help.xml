@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string name="help_wallet">
+
+		&lt;p&gt;
+			The upper left part of the screen displays your balance in Radiocoins and one selected national currency.
+			Tap to go to the list of national currencies, and tap on one of the currencies to select it as default.
+		&lt;/p&gt;
+		&lt;p&gt;
+			The QR code in the upper right contains your current radiocoin address and can be used for scanning by a payer.
+			Tap on the QR code to get a larger version of it.
+		&lt;/p&gt;
+		&lt;p&gt;
+			The bottom of the screen is covered by your transactions list.
+			It is empty at the beginning and will fill up as you receive and send payments.
+			Received payments will be marked in green and sent payments in red.
+		&lt;/p&gt;
+		&lt;p&gt;
+			You can send or request coins by tapping the buttons in the action bar.
+			More options are available in the options menu.
+		&lt;/p&gt;
+	
+    </string>
+<string name="help_request_coins">
+
+		&lt;p&gt;
+			Using this dialog, you can request coins from a payer.
+			The payer should already have installed a Radiocoin wallet.
+		&lt;/p&gt;
+		&lt;p&gt;
+			First, you can enter an amount of Radiocoins to request.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Then, you either have the generated QR code scanned by the payer.
+			Or, you can send your request to a remote person with the share button in the action bar.
+			If both phones have NFC enabled, you can also tap them together.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Either way, the payer will be presented a dialog for sending coins with all fields pre-populated.
+			If the payer agrees, he or she can execute the payment easily.
+		&lt;/p&gt;
+	
+    </string>
+<string name="help_send_coins">
+
+		&lt;p&gt;
+			You have initiated the process of sending coins.
+		&lt;/p&gt;
+		&lt;p&gt;
+			First, you enter the Radiocoin address to pay to.
+			The address will autocomplete from known entries in your address book.
+			You can also scan a QR code being presented by the payee by pressing the camera button.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Next, you enter the amount to pay.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Last, the spending PIN must be entered if one was set up beforehand.
+		&lt;/p&gt;
+		&lt;p&gt;
+			You can enter a payment while being offline.
+			It will be sent on next restart of Radiocoin Wallet.
+			If you want a payment to be processed as fast as possible, make sure you are well connected (i.e. on a WLAN).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Note:
+			Payments are irreversible!
+			Always check the receiving address.
+		&lt;/p&gt;
+	
+    </string>
+<string name="help_safety">
+
+		&lt;p&gt;
+			&lt;b&gt;Important safety notes:&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Radiocoins are stored on the device.
+			&lt;b&gt;If you lose it, you\'ll lose your Radiocoins.&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			This means you need to &lt;b&gt;back up your wallet&lt;/b&gt;!
+			Use the in-app backup facility for this, rather than a third party backup app.
+			Keep your backup safe and remember the password.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Before uninstalling&lt;/b&gt; (or clearing app data/wiping your device), &lt;b&gt;transfer your Radiocoins to another wallet&lt;/b&gt;.
+			Remaining Radiocoins will be lost.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Payments are irreversible&lt;/b&gt;.
+			If you send your Radiocoins into the void, there is almost no way to get them back.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Keep your mobile device safe!&lt;/b&gt;
+			Do not root your device.
+			Do only install apps you fully trust.
+			Malicious apps could be trying to steal your wallet.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Keep the risk low!
+			&lt;b&gt;Store only a reasonable amount&lt;/b&gt; for day use.
+		&lt;/p&gt;
+	
+    </string>
+<string name="help_technical_notes">
+
+        &lt;p&gt;
+            &lt;b&gt;Technical notes:&lt;/b&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            As an SPV/light wallet, Radiocoin Wallet follows the chain of the most proof-of-work (sometimes also called the \"longest chain\", the \"winning chain\" or the \"Radiocoin block chain\").
+            You will only receive incoming payments and be able to pay on that chain.
+            No guarantees can be made about Radiocoins on minority chains, that is chains with less proof-of-work.
+        &lt;/p&gt;
+        &lt;p&gt;
+            In the past, minority chains have always become irrelevant very quickly.
+            If you desire to follow a minority chain anyway, you are advised to use the \"trusted peer\" feature to exclusively connect to a radiocoind implementation which enforces your desired chain.
+            If the network between your wallet and the trusted peer is not to be trusted, use a VPN to authenticate that connection.
+        &lt;/p&gt;
+    
+    </string>
+</resources>

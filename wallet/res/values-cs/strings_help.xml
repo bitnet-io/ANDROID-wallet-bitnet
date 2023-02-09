@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string name="help_wallet">
+
+		&lt;p&gt;
+			Horní levá strana obrazovky ukazuje dostupné prostředky v Radiocoinech a v jedné vybrané národní měně.
+			Dotykem přejdete k seznamu národních měn, a ťuknutím na vybranou měnu ji zvolíte jako svou výchozí.
+		&lt;/p&gt;
+		&lt;p&gt;
+			QR kód vpravo obsahuje vaši radiocoinovou adresu a může být naskenována plátcem.
+			Dotykem na QR kód se zobrazí jeho zvětšená verze.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Spodní část obrazovky zobrazuje seznam vašich transakcí, který je před prvním použitím prázdný.
+			Čekající transakce jsou až do jejich potvrzení v síti zašedlé.
+			Dotykem na záznam přidáte odesilatele nebo příjemce do svého adresáře.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Odesílat nebo přijímat platby můžete dotykem na tlačítka ve spodním panelu.
+			Další možnosti jsou dostupné v menu nastavení.
+		&lt;/p&gt;
+	
+    </string>
+<string name="help_request_coins">
+
+		&lt;p&gt;
+			Pomocí tohoto dialogu můžete vyžádat Radiocoiny od někoho jiného (kdo by měl již také mít aplikaci Radiocoin Wallet).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Nejprve zadejte množství Radiocoinů, které požadujete.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Potom můžete protistraně nabídnout vygenerovaný QR kód k oskenování,
+			nebo můžete požadavek zaslat pomocí tlačítka sdílet v rychlé nabídce.
+			Druhá strana potom klikne na Radiocoin URL.
+		&lt;/p&gt;
+		&lt;p&gt;
+			V obou případech odesílatel uvidí dialog na zaslání Radiocoinů s předvyplněnými údaji.
+			 Pokud souhlasí, potvrdí zadané informace a dojde k transakci.
+		&lt;/p&gt;
+	
+    </string>
+<string name="help_send_coins">
+
+		&lt;p&gt;
+			Právě jste zahájili proces odeslání Radiocoinů.
+			Sem jste se dostali buď přes hlavní obrazovku t0to aplikace, nebo pomocí klepnutí na speciální adresu v prohlížeči.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Nejprve zadejte adresu, na kterou chcete provést platbu.
+			Adresa se bude automaticky doplňovat podle údajů dostupných ve vašem adresáři.
+			Můžete také naskenovat QR kód s adresou nebo požadavkem na zaplacení, stisknutím tlačítka s ikonou QR kódu.
+		&lt;/p&gt;
+		&lt;p&gt;
+			V dalším kroku uvidíte, kolik Radiocoinů můžete momentálně utratit.
+			Jakýkoliv rozdíl vůči zůstatku zobrazenému na hlavní obrazovce je stále nepotvrzen a tudíž nemůže být utracen.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Nakonec zadejte částku, kterou chcete zaplatit.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Transakce můžete provádět, i když jste právě offline.
+			Budou provedeny při dalším spuštění aplikace Radiocoin Wallet.
+			Pokud chcete transakci provést co nejrychleji, ujistěte se, že máte dobré připojení (například pomocí bezdrátové sítě wifi).
+		&lt;/p&gt;
+		&lt;p&gt;
+			Poznámka:
+			Převody nelze vzít zpět!
+			Vždy pečlivě zkontrolujte adresu příjemce.
+		&lt;/p&gt;
+	
+    </string>
+<string name="help_safety">
+
+		&lt;p&gt;
+			&lt;b&gt;Několik slov k bezpečnosti:&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Přístup k Radiocoinům je uložen v tomto zařízení.
+			&lt;b&gt;Pokud o zařízení přijdete, ztratíte i své Radiocoiny.&lt;/b&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Je proto velmi důležité pravidelně &lt;b&gt;zálohovat svou peněženu&lt;/b&gt;!
+			Pro zálohování používejte raději zabudovanou funkci této aplikace, než jiná zálohovací řešení třetích stran.
+			Poté udržujte svou zálohu na bezpečném místě a pamatujte si heslo.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Před odinstalací aplikace Radiocoin Wallet&lt;/b&gt; (nebo výmazem dat aplikace/přístroje), &lt;b&gt;si přepošlete zůstatek do jiné peněženky&lt;/b&gt;.
+			Jakékoliv zbylé neodeslané Bitcony budou ztraceny.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Provedené platby jsou nezvratné&lt;/b&gt;.
+			Pokud pošlete Radiocoiny na špatnou adresu, možnost jejich získání zpět téměř neexistuje.
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;b&gt;Udržujte svůj mobilní přístroj v bezpečí!&lt;/b&gt;
+			Nepřivlastňujte si práva root svého přístoje.
+			Instalujte pouze aplikace, kterým plně důvěřujete.
+			Škodlivé aplikace se mohou pokoušet o ukradení Radiocoinů z peněženky.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Neriskujte zbytečně!
+			&lt;b&gt;Noste u sebe pouze menší částky&lt;/b&gt; pro každodenní použití.
+		&lt;/p&gt;
+	
+    </string>
+<string name="help_technical_notes">
+
+        &lt;p&gt;
+            &lt;b&gt;Technické poznámky:&lt;/b&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            Jako SPV/lehká peněženka sleduje radiocoinová peněženka řetězec s největším důkazem práce (někdy také nazývaný „nejdelší řetězec“, „vítězný řetězec“ nebo „radiocoinový blockchain“).
+            Dostanete pouze příchozí platby a budete moci platit v tomto řetězci.
+            Nelze poskytnout žádné záruky ohledně radiocoinů na menšinových řetězcích, tj. Na řetězcích s menším důkazem práce.
+        &lt;/p&gt;
+        &lt;p&gt;
+            V minulosti se menšinové řetězce vždy rychle staly nepodstatnými.
+            Pokud si přesto přejete sledovat menšinový řetězec, doporučujeme vám použít funkci „důvěryhodného partnera“ k výhradnímu připojení k implementaci radiocoind, která vynutí váš požadovaný řetězec.
+            Pokud není důvěryhodná síť mezi vaší peněženkou a důvěryhodným partnerem, ověřte toto připojení pomocí VPN.
+        &lt;/p&gt;
+    
+    </string>
+</resources>

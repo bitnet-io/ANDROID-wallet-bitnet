@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/arm64-v8a'
+ninja: no work to do.

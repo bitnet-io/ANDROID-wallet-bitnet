@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bitnet Wallet</string>
+    <string name="app_name_short">Bitnet</string>
+
+    <string-array name="preferences_block_explorer_values">
+        <item>http://bitexplorer.io/%s/</item>
+    </string-array>
+    <string-array name="preferences_block_explorer_labels">
+        <item>Bitnet-Explorer.io</item>
+    </string-array>
+</resources>

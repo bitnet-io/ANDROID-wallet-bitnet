@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/c4pt/opt/BITnet-android-wallet/wallet/cpp/CMakeLists.txt",
+    "/root/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/root/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "scrypt-Release-armeabi-v7a": {
+      "artifactName": "scrypt",
+      "buildCommand": "/root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/armeabi-v7a\" scrypt",
+      "abi": "armeabi-v7a",
+      "output": "/home/c4pt/opt/BITnet-android-wallet/wallet/build/intermediates/cmake/prodRelease/obj/armeabi-v7a/libscrypt.so",
+      "runtimeFiles": []
+    }
+  }
+}

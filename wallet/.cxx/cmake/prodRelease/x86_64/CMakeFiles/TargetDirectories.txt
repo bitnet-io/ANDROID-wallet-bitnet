@@ -1,0 +1,3 @@
+/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/x86_64/CMakeFiles/rebuild_cache.dir
+/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/x86_64/CMakeFiles/edit_cache.dir
+/home/c4pt/opt/BITnet-android-wallet/wallet/.cxx/cmake/prodRelease/x86_64/CMakeFiles/scrypt.dir

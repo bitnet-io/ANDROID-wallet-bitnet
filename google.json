@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "6121876610113342786",
+  "private_key_id": "edbcb062879f5eb17ba7a24a6ddea5b1c7b7ee3c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAtdSbAk+Viurn\nmkY7BZIWNA/fRCKosCKq2+zwmwRoCBMjFI6mPWNMcSHgRjUt/oGKZWzp7UGfxrUK\n2YkPE/kbuwn+9PFk0zQfvdlViMk+owZ6xt3TOewBF5XuY7blSyGdxWiR1W/ay3E3\nTYScyPg52b3h7Tu/ycm9bhobYm35zIrO9QMYuyxHwdnM9bdKQc2OZ9H9ADJqR8Vq\nfp077Azy72DLo6EsGS9ivZYkEsps841woOh03AmKl1PLcRPP/sm49S0tNYjhucOL\ns/5QS/6aHUAvrDT7GIwNVdzB4/3cKoV12qYpefh9UUeHBYQGPeZ1+f92Qz2ZEr59\nphdn/vrrAgMBAAECggEAAVXbaIap+4QTDl3kFYOeadpWmC6cAZoPOIfJhSDC9Xbc\n3C08J6ORWi0GswYFKMYGHyQSJgCmHEQxAcpgYivGCIvXe5KTZ0k61l94pAcMlNyr\ntCRfGIDXM/XTSgMED3snY/r9oBqIqdj4x7vTR+zZ3JXaujgDq+72ziTUOB7QiUdz\nh1GXEZtxBRQMCIMg/sYgjUFpvVwRoUBOdCSBltPTzePBNdpddGJK7MveV2UpBpuF\nkm6KYA4xCg76w0iCJb3ilWcQevJ/f38sKTkjKNxoxFqLLXWOvcZP4VDzbsv8QyN5\nZiu7GBJjfwVFx+ACFVo6Ne8oR9lozB0hm66ZZD7ftQKBgQDx83qe1dOLh0WO+s1Y\nk7VcNFk9SQ73zgw2GnKwgy1G13DrR/1RFpCdzZuJxj55wBuSfXqbVPfy4Go/V8tn\nFtoEaOpTjsXvJHqoSy0cFBBgAsmU3ka23kosliWNbrkk/HMCIdMbKT6v/JGvJBlh\n9YFTKggb1kCHYIGy2sZNdBvGbQKBgQDL5mdJ/S285oYRkj0/osaGqNEC6F9c3gRu\nfh0kDwobuEYb2YVxxCSx+J2aF7/V6vp4YA+hk0kD/5Ev+f1eymUu3wnDWIxn9OFq\nnT4GzOMy9EQSoOZ+g7rCyP7ylV9KNjCCbTHm/xaamV/Z8xGQ8CXz+97OlbSbYWyj\nWmXVNjrPtwKBgQCtlfy0dj6WzU9HXIL0+MxWQayAvqjBew/hxSnhn8tdFvaJpxWE\nFsdcoAXmW9e46+4cNHBBfz2BACbaGTfyVz/FiCwOFNHHWAm0MnNDwNVavMU5TBu5\n2VOoF3ULupOUiJZOwku+IeI6yt8Oo7yePlAxhWdZ6WZUehWzZyh8qz++JQKBgEXY\nAY+Nowou6MPCFSrkJh7gWuAlGu1ju57hojfE0xCVuaY2h4hlyLAR2mJ7OiIboHp1\nZUVSf1NYSrJlbo32xFwe2GhKv6Woc0Ki5ClOK5E7rMm4xduWYfXxBauw0PhJwaob\nn1liDasdWID+ywibylRd9X9MNpZ289Cs2W8EaXbXAoGACzfEiHe9X4kiPsiyz60G\nkjGQDCbwvEBKV+GrAkCCDbdeURVcVVGEA9FWuSiwzY9+aCgWpeorcq8CQrtMQgce\n4JGS1OlLmwoa/kjAwDg2/aLTOcYxJtX/lUaL6HsiSQgIhz7xlCHGHhFkyA57clHn\nRXJOC0x/u7BhxkOVjJcPVZQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-publish@6121876610113342786.iam.gserviceaccount.com",
+  "client_id": "110430528015800064430",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-publish%40rock-palisade-326817.iam.gserviceaccount.com"
+}
